@@ -32,3 +32,4 @@ df.to_csv(out_path, index=False)
 #%% --- Load the data for dataset 2 ---
 in_path = data_path / "raw" / "dataset_2" / f"s{day}.csv"
 df = pd.read_csv(path, encoding="latin1")
+
